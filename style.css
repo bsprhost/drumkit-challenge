@@ -1,0 +1,57 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+#drum-kit-board {
+	display: flex;
+	align-items: stretch;
+	height: 100vh;
+	background-color: black
+}
+
+#btn-panel {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	position: relative;
+	align-items: stretch;
+	background-color: yellow;
+	border: 3px, solid, black;
+}
+
+#info-panel {
+	flex: 1;
+	overflow: auto;
+	margin: 4px;
+	padding: 10px 30px;
+	background-color: aquamarine;
+	font-weight: bold;
+	font-size: x-large;
+}
+
+.btn {
+	flex: 1;
+	position: relative;
+	flex-shrink: 1;
+	height: 8px;
+	margin: 4px;
+	padding: 10px 30px;
+	background-color: blue;
+	border-radius: 5px;
+	border: 4px;
+	border-color: aqua;
+	font-size: 20px;
+	color: aqua;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: aqua;
+	color: blue;
+}
